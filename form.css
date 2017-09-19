@@ -222,6 +222,7 @@ body{
   color: white;
   line-height: 1.5;
   padding: 1em;
+  font-family: 'Roboto', 'sans-serif';
 }
 
 .contanier{
@@ -318,7 +319,6 @@ ul{
 
 .user-info form button:hover, .user-info form button:focus{
   background: gold;
-  color: ;
   outline: 0;
   transition: background-color 2s ease-out;
 }
@@ -327,7 +327,7 @@ ul{
 @media(min-width:600px){
   .wrapper{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .wrapper > *{
@@ -337,5 +337,12 @@ ul{
   .user-info h3, .user-info ul, .info{
     text-align: left;
   }
+  
+  img {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 1rem;
+    width: 200px;
+}
 
 }
