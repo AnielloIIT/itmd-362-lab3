@@ -281,7 +281,7 @@ ul{
     background: #c68c53;
   }
 
-/*Start of the from CSS style*/
+/*Start of the from tag CSS style*/
 .user-info form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -340,9 +340,10 @@ ul{
   
   img {
     display: table-cell;
+    height: 200px;
     vertical-align: middle;
+    width: 100%;
     padding-bottom: 1rem;
-    width: 200px;
 }
 
 }
